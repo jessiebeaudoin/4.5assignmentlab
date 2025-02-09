@@ -5,7 +5,7 @@ title: Planetary Playing Cards
 
 <div class="grid">
   {% include 'sun.liquid' %}
-  {% for planet in planets %}
-    {% include 'planet.liquid', planet: planet %}
+  {% for planet in collections.planets %}
+    {% include 'planet.liquid' %}
   {% endfor %}
 </div>
